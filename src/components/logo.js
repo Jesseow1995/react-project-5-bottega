@@ -9,7 +9,7 @@ export default class Logo extends Component {
             width: this.props.size ? this.props.size : 105
         }
         return (
-            <div className="logo-main">
+            <div className="logo_main">
                 <Link to="/">
                     <img style={size} alt="logo_img" src="/assets/images/ds_circle_logo.png" />
                 </Link>
