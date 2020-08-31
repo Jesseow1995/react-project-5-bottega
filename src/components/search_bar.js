@@ -18,7 +18,10 @@ class SearchBar extends Component {
 
         return (
             <form className="search_bar" onSubmit={handleSubmit(this.handleFormSubmit.bind(this))}>
-                <Field name="query" component={this.renderInput} />
+                <div className="search_bar_wrapper">
+                    <Field name="query" component={this.renderInput} />
+                    <p>Press return to search</p>
+                </div>
             </form>
         )
     }

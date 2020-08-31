@@ -1,6 +1,13 @@
+
+$color-gray-one: #666666;
+$color-gray-two: #b3b3b3;
+
 @import "./logo.scss";
 @import "./post.scss";
 @import "./home.scss";
+@import "./searchbar.scss";
+
+
 
 html {
     font-family: 'Lato', sans-serif
