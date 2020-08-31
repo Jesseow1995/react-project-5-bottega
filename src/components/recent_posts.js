@@ -29,10 +29,12 @@ class RecentPosts extends Component {
             <div className="recent_posts">
                 <div className="recent_posts_wrapper">
                     <div className="recent_posts_heading">
-                        <ul className="recent_posts_posts">
-                            {this.renderPosts()}
-                        </ul>
+                        Recent Posts
                     </div>
+                    <ul className="recent_posts_posts">
+                        {this.renderPosts()}
+                    </ul>
+
                 </div>
             </div>
         )

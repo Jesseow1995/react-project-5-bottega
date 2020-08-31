@@ -1,4 +1,8 @@
-.logo_main {
+.logo_main, .recent_posts {
+
+    display: grid;
+    justify-items: center;
+    
     img {
         width: 105px;
         height: 105px;

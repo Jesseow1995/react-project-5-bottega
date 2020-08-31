@@ -1,12 +1,12 @@
 
 $color-gray-one: #666666;
 $color-gray-two: #b3b3b3;
-
+$color-blue-one: #0079FF;
 @import "./logo.scss";
 @import "./post.scss";
 @import "./home.scss";
 @import "./searchbar.scss";
-
+@import "./recentPosts.scss";
 
 
 html {
@@ -20,4 +20,10 @@ body {
 .app-wrapper {
     display: grid;
     justify-content: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
