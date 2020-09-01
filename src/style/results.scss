@@ -1,4 +1,53 @@
 .results {
-    @include default-page-layout();
+    //@include default-page-layout();
+    height: 100vh;
+    width: 66vw;
+    display: grid;
 
+    margin-top: 52px;
+    grid-row-gap: 44px;
+     
+}
+
+.results-posts {
+    display: grid;
+    grid-row-gap: 21px;
+
+    .results-posts-wrapper {
+
+        .results-posts-posts {
+            display: grid;
+            grid-row-gap: 20px;
+            justify-content: stretch;
+        }
+    }
+}
+
+.result_post {
+    display: grid;
+    align-content: space-around;
+    grid-row-gap: 22px;
+
+    .result_post_associated_topics > * {
+        color: $color-blue-one;
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: normal;
+    }
+
+    .result_post_title a {
+        color: $color-gray-one;
+        font-size: 18px;
+        line-height: 22px;
+        text-decoration: none;
+
+        &:hover {
+            transition: 0.5s;
+            text-decoration: underline;
+        }
+    }
+
+    .result_post_link {
+        display: flex;
+    }
 }
