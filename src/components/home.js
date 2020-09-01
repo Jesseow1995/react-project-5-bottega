@@ -20,7 +20,7 @@ class Home extends Component {
       <div className='home'>
 
         <Logo></Logo>
-        <SearchBar onSubmit={(query) => this.handleSearchBarSubmit(query)}></SearchBar>
+        <SearchBar page="home" onSubmit={(query) => this.handleSearchBarSubmit(query)}></SearchBar>
         <RecentPosts></RecentPosts>
 
       </div>

@@ -14,8 +14,7 @@
             border: 0px solid transparent;
             border-radius: 5px;
     
-            height: 118px;
-            font-size: 40px;
+            
     
             transition: all .2s ease-in-out;
     
@@ -37,5 +36,21 @@
             color: $color-gray-two;
         }
         
+    }
+}
+
+.search_bar_home {
+    input {
+        height: 118px;
+        font-size: 40px;
+    }
+}
+
+.search_bar_results{
+    align-content: start;
+    justify-items: center;
+    input {
+        font-size: 22px;
+        height: 36px;
     }
 }
