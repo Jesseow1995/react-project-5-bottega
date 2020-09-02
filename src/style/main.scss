@@ -36,4 +36,14 @@ ul {
 
 a {
     text-decoration: none;
+    &:hover {
+        transition: 0.5s;
+        text-decoration: underline;
+    }
+}
+
+.no-content {
+    color: $color-gray-one;
+    font-size: 14px;
+    line-height: 17px;
 }

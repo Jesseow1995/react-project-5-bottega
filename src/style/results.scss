@@ -54,7 +54,8 @@
     .post_link {
         min-height: 70px;
         display: flex;
-
+        flex-basis: 285px;
+        margin-right: 37px;
         .post_link_box {
             min-width: 70px;
             background-color: $color-gray-three;
@@ -64,6 +65,7 @@
             color: $color-gray-one;
             font-size: 14px;
             line-height: 17px;    
+            
                     
         }
         

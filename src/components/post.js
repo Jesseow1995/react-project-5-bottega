@@ -38,6 +38,8 @@ class Post extends Component {
             link = link.substring(0, link.length - 4);
         }
         return link;
+
+
     }
     renderLinks() {
         let links = this.props.post_links.map((post_link, id) => {
@@ -46,12 +48,16 @@ class Post extends Component {
                     <div className="post_link_box">
 
                     </div>
+
                     <div className="post_link_link">
                         <a href={post_link.link_url}>{this.getPostLinkName(post_link.link_url)}</a>
                     </div>
                 </div>
             )
         })
+        if (links == 0) {
+            return <div className="no-content">No Post Links</div>
+        }
         return links;
     }
 
