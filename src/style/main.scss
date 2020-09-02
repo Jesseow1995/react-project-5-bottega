@@ -1,6 +1,7 @@
 
 $color-gray-one: #666666;
 $color-gray-two: #b3b3b3;
+$color-gray-three: #D8D8D8;
 $color-blue-one: #0079FF;
 
 
@@ -31,4 +32,8 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }

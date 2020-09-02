@@ -39,7 +39,7 @@
         color: $color-gray-one;
         font-size: 18px;
         line-height: 22px;
-        text-decoration: none;
+        
 
         &:hover {
             transition: 0.5s;
@@ -49,5 +49,23 @@
 
     .result_post_link {
         display: flex;
+    }
+
+    .post_link {
+        min-height: 70px;
+        display: flex;
+
+        .post_link_box {
+            min-width: 70px;
+            background-color: $color-gray-three;
+            margin-right: 16px;
+        }
+        .post_link_link a {
+            color: $color-gray-one;
+            font-size: 14px;
+            line-height: 17px;    
+                    
+        }
+        
     }
 }

@@ -21,7 +21,7 @@ class Post extends Component {
     renderLinks() {
         let links = this.props.post_links.map((post_link, id) => {
             return (
-                <div className='post_links' key={id}>
+                <div className='post_link' key={id}>
                     <div className="post_link_box">
 
                     </div>
